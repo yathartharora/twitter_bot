@@ -33,10 +33,10 @@ phrasematcher.add('Age', None, *phrase_patterns6)
 
 
 
-CONSUMER_KEY = '7weLAT5g8kGIZKRKzrobqxYWF'
-CONSUMER_SECRET = 'h6qZQ1BOJKAJhWTov4ZdOQoOFo3cZAeLpL9HpFliPZTpJDMklb'
-ACCESS_KEY = '1231308506919124992-lbE8acHJxbr0p3235mZZnVLRuQwMjV'
-ACCESS_SECRET = '4QVUZrjXnRLGtCd5fGXojyw6e4XjD0xiBvHryTEzpQr3y'
+CONSUMER_KEY = 'XXXXXXX'
+CONSUMER_SECRET = 'XXXXX'
+ACCESS_KEY = 'XXXX'
+ACCESS_SECRET = 'XXXXX'
 auth = tweepy.OAuthHandler(CONSUMER_KEY,CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY,ACCESS_SECRET)
 api = tweepy.API(auth, wait_on_rate_limit=True)
